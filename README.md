@@ -4,7 +4,8 @@
 ### run
 ```
 docker build -t ory-oathkeeper-demo .
-
+```
+```
 docker run --rm \                    
   --name ory-oathkeeper-demo \
   -p 4455:4455 \
