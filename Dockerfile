@@ -1,4 +1,4 @@
-FROM oryd/oathkeeper:v0.38.12-beta.1
+FROM oryd/oathkeeper:v0.38.15
 
 ADD config.yaml /config.yaml
 ADD rules.json /rules.json

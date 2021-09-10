@@ -1,7 +1,6 @@
 [
   {
     "id": "allow-anonymous-with-header-mutator",
-    "version": "v0.36.0-beta.4",
     "upstream": {
       "url": "https://httpbin.org/anything/header",
       "strip_path": "/anything/header"
@@ -33,7 +32,6 @@
   },
   {
     "id": "deny-anonymous",
-    "version": "v0.36.0-beta.4",
     "upstream": {
       "url": "https://httpbin.org/anything/deny"
     },
@@ -49,7 +47,7 @@
       }
     ],
     "authorizer": {
-      "handler": "deny"
+      "handler": "allow"
     },
     "mutators": [
       {
@@ -89,7 +87,6 @@
   },
   {
     "id": "allow-anonymous-with-id-token-mutator",
-    "version": "v0.36.0-beta.4",
     "upstream": {
       "url": "http://httpbin.org/anything/id_token"
     },
